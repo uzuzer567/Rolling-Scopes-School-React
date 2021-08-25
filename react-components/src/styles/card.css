@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+.card {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 330px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #f4ffd2;
+  margin-left: -15px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.card__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__image {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.card__button {
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  font-weight: 700;
+  width: 150px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #adce49;
+  margin-top: 20px;
+}
+
+.card__button:hover {
+  filter: brightness(0.8);
+  cursor: pointer;
+}
+
+.card__info {
+  width: 350px;
+  padding-left: 30px;
+}
+
+.card__info-name,
+.card__info-name-english {
+  max-width: 350px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+
+.card__info-name {
+  font-size: 40px;
+  font-weight: 700;
+  color: #7aa204;
+  -webkit-text-stroke: 0.3px black;
+  margin-top: -10px;
+}
+
+.card__info-name-english {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card__info-text {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card__info span {
+  font-weight: 700;
+}
