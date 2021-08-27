@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #f4ffd2;
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.card__text {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.card__text span {
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  font-weight: 700;
+  padding-right: 20px;
+}
