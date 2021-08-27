@@ -1,0 +1,91 @@
+.form__location {
+  width: 400px;
+  margin: 20px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: linear-gradient(#e2fd90, white, #e2fd90);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -30px;
+}
+
+.form__input {
+  width: 180px;
+  height: 35px;
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+  padding: 0 10px;
+}
+
+.form__text {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.form__button {
+  font-family: "Amatic SC", cursive;
+  font-size: 20px;
+  font-weight: 700;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+  margin-top: 30px;
+  margin-left: 95px;
+}
+
+.form__button:hover {
+  cursor: pointer;
+}
+
+#form__message {
+  visibility: hidden;
+  min-width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding: 15px;
+  position: fixed;
+  z-index: 10;
+  top: 43px;
+  left: 39%;
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  font-weight: 700;
+  color: #7aa204;
+  text-align: center;
+}
+
+#form__message.active {
+  visibility: visible;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    top: 0; 
+    opacity: 0;
+  }
+  to {
+    top: 50px; 
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    top: 50px; 
+    opacity: 1;
+  }
+  to {
+    top: 0; 
+    opacity: 0;
+  }
+}
