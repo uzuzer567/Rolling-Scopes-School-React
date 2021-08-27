@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.jsx", "src/**/*.tsx"],
+  "options" : {
+    "fix" : true
+  }
+}
